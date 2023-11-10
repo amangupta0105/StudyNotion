@@ -1,0 +1,17 @@
+/* About.css */
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust the styles as needed */
+  

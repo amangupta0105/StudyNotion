@@ -1,0 +1,54 @@
+/* LoginForm.css */
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.password-input-container {
+  position: relative;
+}
+
+.eye-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.submit-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Additional styling for accessibility */
+.eye-icon:hover {
+  color: #666; /* Darken the eye icon on hover for better visibility */
+}
+

@@ -1,0 +1,58 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  /* Navbar styles */
+  .Navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+  }
+  
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  /* Page container styles */
+  .page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Home page styles */
+  .home-header {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .home-description {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Other page styles can be added similarly */
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

@@ -1,0 +1,53 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-content {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-content li {
+    margin-bottom: 5px;
+  }
+  
+  .announcement-card {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .announcement-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .announcement-text {
+    color: #666;
+  }
+  

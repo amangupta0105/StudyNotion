@@ -1,0 +1,88 @@
+/* SignUpForm.css */
+
+.signupform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button button {
+  margin: 0 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.toggle-button button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.form {
+  width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Add these styles to position the eye icon inside the password input */
+.pass {
+  position: relative;
+}
+
+.pass input {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .eye-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+} */
+
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Add more styles as needed */

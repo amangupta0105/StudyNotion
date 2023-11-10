@@ -1,0 +1,17 @@
+/* Contact.css */
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust the styles as needed */
+  
